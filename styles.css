@@ -1,0 +1,33 @@
+body{
+    font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
+    background-color: #1f2937;
+    color: white;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.header-links{
+    display:flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.header-links > div{
+    font-size: x-small;
+}
+
+.header-logo{
+    font-weight: bold;
+}
