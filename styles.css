@@ -1,7 +1,18 @@
+:root{
+    --btn-color: #3882f6;
+    --white-color1: #e5e7eb;
+    --white-color2: #f9faf8;
+}
+
 body{
     font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
     background-color: #1f2937;
-    color: white;
+}
+
+.center-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main-container{
@@ -12,10 +23,7 @@ body{
 }
 
 .header{
-    display:flex;
-    justify-content: space-between;
     padding-top: 20px;
-    align-items: center;
 }
 
 .header-links{
@@ -25,9 +33,52 @@ body{
 }
 
 .header-links > div{
-    font-size: x-small;
+    font-size: 18px;
+    color: var(--white-color1);
 }
 
 .header-logo{
-    font-weight: bold;
+    font-size: 24px;
+    color: var(--white-color2);
+}
+
+.hero-img-placeholder{
+    background-color: grey;
+    color: white;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pane-1-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 350px;
+    gap: 9px;
+}
+
+.pane-1{
+    padding: 50px 0;
+}
+
+.hero-main{
+    font-weight: 900;
+    font-size: 48px;
+    color: var(--white-color2);
+}
+
+.hero-par{
+    font-size: 18px;
+    color: var(--white-color1);
+}
+
+.hero-button{
+    color: var(--white-color1);
+    background-color: var(--btn-color);
+    border-radius: 8px;
+    border: none;
+    padding: 5px 20px;
 }
