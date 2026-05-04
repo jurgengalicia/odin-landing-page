@@ -69,14 +69,25 @@ body{
 
 .pane-1{
     padding: 20px 100px;
-    height: 300px;
+    height: 400px;
 }
 .pane-2{
     align-items: center;
-    height: 300px;
+    height: 350px;
     justify-content: space-around;
+    background-color: var(--white-color2);
+    
+    padding: 20px 100px;
+    margin: 0;
+}
+
+.pane-3{
+    align-items: center;
+    height: 350px;
+    gap: 18px;
     background-color: var(--white-color1);
-    width: 100vw;
+    justify-content: center;
+    align-items: center;
     padding: 20px 100px;
     margin: 0;
 }
@@ -129,3 +140,15 @@ body{
     color: var(--black-color1);
 }
 
+
+.pane-3-quote{
+    width: 750px;
+    font-size: 26px;
+    font-weight: 300;
+    color: var(--black-color1);
+}
+.pane-3-sig{
+    display: flex;
+    justify-content: flex-end;
+    width: 750px;
+}
