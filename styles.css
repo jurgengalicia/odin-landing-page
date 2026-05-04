@@ -126,9 +126,11 @@ a{
 
 .pane-2-bottom {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 700px;
     padding: 25px;
+    gap: 20px;
+    flex-wrap: wrap;
     
 }
 .pane-2-bottom-card {
