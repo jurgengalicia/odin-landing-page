@@ -15,6 +15,11 @@ body{
     font-family: Roboto, Georgia, 'Times New Roman', Times, serif;
 }
 
+a{
+    text-decoration: none;
+    color: var(--white-color2);
+}
+
 .center-flex{
     display: flex;
     justify-content: space-between;
@@ -32,7 +37,7 @@ body{
 }
 
 .header{
-    padding: 20px 100px;
+    padding: 20px 150px;
 }
 
 .header-links{
@@ -63,12 +68,12 @@ body{
 
 .pane-1-left{
     align-items: flex-start;
-    width: 400px;
     gap: 9px;
 }
 
 .pane-1{
-    padding: 20px 100px;
+    padding: 20px 150px;
+    gap: 30px;
     height: 400px;
 }
 .pane-2{
@@ -76,8 +81,7 @@ body{
     height: 350px;
     justify-content: space-around;
     background-color: var(--white-color2);
-    
-    padding: 20px 100px;
+    padding: 20px 150px;
     margin: 0;
 }
 
@@ -88,7 +92,16 @@ body{
     background-color: var(--white-color1);
     justify-content: center;
     align-items: center;
-    padding: 20px 100px;
+    padding: 20px 150px;
+    margin: 0;
+}
+
+.pane-4{
+    align-items: center;
+    height: 350px;
+    justify-content: space-around;
+    background-color: var(--white-color2);
+    padding: 20px 150px;
     margin: 0;
 }
 
