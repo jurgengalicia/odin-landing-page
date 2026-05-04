@@ -135,6 +135,7 @@ a{
 }
 .pane-2-bottom-card {
     justify-content: center;
+    
     align-items: center;
     width: 130px;
     gap: 10px;
@@ -169,6 +170,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--white-color1);
     
 }
 .pane-2-img{
